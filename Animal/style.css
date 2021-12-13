@@ -1,0 +1,43 @@
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: #000033;
+}
+nav a:visited{
+	color: #344873;
+}
+nav a:hover{
+	color: #ffffff;
+}
+nav a:active{
+	color: #000000;
+}
+
+nav ul{
+		list-style-type: none;
+		margin: 0;
+		padding-left: 0;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	body{
+		background-color: blue;
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+

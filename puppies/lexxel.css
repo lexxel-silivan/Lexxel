@@ -1,0 +1,261 @@
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: #000033;
+}
+nav a:visited{
+	color: #344873;
+}
+nav a:hover{
+	color: #ffffff;
+}
+nav a:active{
+	color: #000000;
+}
+
+nav ul{
+		list-style-type: none;
+		padding-left: 0;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+}
+
+table{
+	background-color: #eeeeee;
+    border-spacing: 0;
+    margin-bottom: 100px;
+	display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+
+}
+
+tr{
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th{
+	padding: 10px;
+    border: 1px solid #dddddd;
+    line-height: 1.5;
+}
+
+th{
+	background-color: cyan;
+    color: black;
+	display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+ul{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-color: #dddddd;
+}
+
+nav{
+	background-color: cyan;
+	margin: 0;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+h1{ 
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	font-size: 40px
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	fonnt-size: 2em;
+}
+
+nav li{
+	display: inline;
+	padding: 5px 10px;
+}
+
+main{
+	margin: 0 auto;
+    max-width: 1000px;
+    padding: 10px;
+    background-color: white;
+}
+
+form{
+	background-color: #efefef;
+    border: 1px solid gray;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px grey;
+}
+
+label{
+	float: left;
+    width: 8em;
+    padding-right: 1em;
+}
+
+.lexxel{
+	float: left;
+	max-width: 40%;
+	height: auto;
+}
+
+canvas{
+	border: 3px solid cyan;
+	background-image: url("clouds.jpg");
+}
+h2{
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+}
+
+p{
+	font-size: 18px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.center-text{
+	text-align: center;
+}
+
+
+
+canvas{
+	background-color: #f1f1f1;
+	margin: 0 auto;
+	display: block;
+	background-image: url(images/clouds.jpg);
+	border: 3px solid #800080;
+	box-shadow: 2px 2px 6px black;
+}
+	
+
+footer{
+	clear: both;
+    background-color: cyan;
+    color: white;
+    padding: 50px;
+    border-top: 3px solid black;
+	text-align: center;
+	color: black;
+}
+
+.resume h3{
+	font-size: 28px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1{
+	margin-bottom: 0;
+}
+
+.game-controls{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	body{
+		background-color: blue;
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
